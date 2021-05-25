@@ -1,10 +1,14 @@
-import React, { useState } from "react"
-import logo from "./logo.svg"
+import React, { useState } from "react";
+import logo from "./logo.svg";
 import type {
   ProFormColumnsType,
   ProFormLayoutType,
-} from "@ant-design/pro-form"
-import ProForm, { ProFormText, BetaSchemaForm, ProFormSelect} from "@ant-design/pro-form"
+} from "@ant-design/pro-form";
+import ProForm, {
+  ProFormText,
+  BetaSchemaForm,
+  ProFormSelect,
+} from "@ant-design/pro-form";
 import "./App.css";
 
 import { Logo } from "./Logo";
