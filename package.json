@@ -26,7 +26,8 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": [
@@ -48,7 +49,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "echo \"[Husky] pre-commit\""
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
@@ -61,5 +62,8 @@
       "node_modules/.bin/prettier --write",
       "git add"
     ]
+  },
+  "devDependencies": {
+    "husky": "^6.0.0"
   }
 }
