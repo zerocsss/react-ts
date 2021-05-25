@@ -4,11 +4,7 @@ import type {
   ProFormColumnsType,
   ProFormLayoutType,
 } from "@ant-design/pro-form";
-import ProForm, {
-  ProFormText,
-  BetaSchemaForm,
-  ProFormSelect,
-} from "@ant-design/pro-form";
+import ProForm, { ProFormText, BetaSchemaForm, ProFormSelect} from "@ant-design/pro-form";
 import "./App.css";
 
 import { Logo } from "./Logo";
