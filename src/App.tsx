@@ -171,8 +171,7 @@ function App() {
           onChange: (e) => setLayoutType(e),
         }}
       />
-      <BetaSchemaForm<DataItem>
-        trigger={<a>点击我</a>}
+      <BetaSchemaForm<DataItem>trigger={<a>点击我</a>}
         layoutType={layoutType}
         onFinish={async (values) => {
           console.log(values);
