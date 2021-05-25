@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 type Props = {
   handleSubmit: (value: string) => void;
-}
+};
 
 interface State {
   itemText: string;
@@ -22,17 +22,17 @@ class TodoList extends Component<Props, State> {
     this.setState({ itemText: value });
   }
 
-  handleSubmit (e: React.FormEvent<HTMLFormElement>) {
+  handleSubmit(e: React.FormEvent<HTMLFormElement>) {}
 
-  }
-  
   render() {
     return (
       <div>
-        <form onSubmit={this.handleSubmit}>
-
-        </form>
-        <input ref={this.inputRef} className="edit" value={this.state.itemText} />
+        <form onSubmit={this.handleSubmit}></form>
+        <input
+          ref={this.inputRef}
+          className="edit"
+          value={this.state.itemText}
+        />
       </div>
     );
   }

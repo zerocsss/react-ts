@@ -200,7 +200,7 @@ function App() {
         <ProFormText name="name" label="姓名" />
       </ProForm> */}
       <header className="App-header">
-        {/* <Logo logo={logo} className="App-logo"></Logo> */}
+        <Logo logo={logo} className="App-logo"></Logo>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
