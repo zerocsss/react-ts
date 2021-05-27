@@ -22,7 +22,9 @@ class TodoList extends Component<Props, State> {
     this.setState({ itemText: value });
   }
 
-  handleSubmit(e: React.FormEvent<HTMLFormElement>) {}
+  handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+  }
 
   render() {
     return (
